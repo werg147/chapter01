@@ -10,17 +10,17 @@ public class Ex08 {
 		
 
 		int s = 6;
-		int i;
-		
+		int x;
+		int y;
 
-		for(i=1; i<=s; i++) {
-			System.out.println("******");	
+		for(y=0; y<6; y++) {
+			for(x=1; x<=s; x++) {
+				System.out.print("*");	
+			}
+			System.out.println("");
 		}
 
-
-		
-		
-		
+	
 		sc.close();
 
 	}
