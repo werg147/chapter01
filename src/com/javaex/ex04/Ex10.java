@@ -2,26 +2,26 @@ package com.javaex.ex04;
 
 import java.util.Scanner;
 
-public class Ex09 {
+public class Ex10 {
 
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		int i;
-		int j;
-		int s = 6;
+		int num = 1;
 		
-		for(i=1; i<=s; i++) {
-			for(j=1; j<i; j++) {
-				System.out.print("*");
-				}
-			System.out.println("*");
+		while(true) {
+			if(num%6==0 && num%14==0) {
+				System.out.println(num);
+				break;
 			}
+			num++;	
+		}
 
-	
 		sc.close();
-
+		
+		
+		
 	}
 
 }
